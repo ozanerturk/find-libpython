@@ -1,0 +1,17 @@
+{
+	"name": "find-libpython",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"scripts": {
+		"prepare": "node src/lib/prepare.js",
+		"build": "npm run prepare && rollup -c ",
+		"test": "node test"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^24.0.0",
+		"rollup": "^3.9.0"
+	}
+}
