@@ -1,7 +1,7 @@
 # find-libpython
 
 
-This is a project inspired from [ktbarrett/find_libpython](https://github.com/ktbarrett/find_libpython)'s python package
+This  project inspired by [ktbarrett/find_libpython](https://github.com/ktbarrett/find_libpython)'s python package
 Actually, it directly uses the same python code. Project has built by fetching `find_libpython` raw code and execute as python subprocess
 So, `python` is required
 
