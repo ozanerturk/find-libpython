@@ -1,4 +1,4 @@
-# find-libpython
+# findlibpython
 
 
 This  project inspired by [ktbarrett/find_libpython](https://github.com/ktbarrett/find_libpython)'s python package
@@ -7,11 +7,11 @@ So, `python` is required
 
 ## Install and Use
 ```
-npm i find-libpython
+npm i findlibpython
 ```
 
 ```javascript
-const {find_libpython} = require("find-libpython")
+const {find_libpython} = require("findlibpython")
 const libPath = find_libpython()
 
 console.log(libPath)
